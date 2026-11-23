@@ -72,13 +72,13 @@ Maquette d'accueil choisie :
 
 ```
 ┌──────────────────────┐
-│ Tendance  95,3 kg ↘    │
+│ Tendance  80,2 kg ↘    │
 │ ╲_╲__╲___╲____        │
 │ -0,48 kg / semaine     │
 │ Dépense  2 890 kcal/j  │
 │──────────────────────│
 │ 1 240 kcal restantes   │
-│ P 92/150 · G 120/230   │
+│ P 92/140 · G 120/250   │
 │──────────────────────│
 │ Petit-déj     520 kcal │
 │ Déjeuner      640 kcal │
