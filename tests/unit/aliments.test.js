@@ -43,3 +43,13 @@ test('repas enregistré et annulation', async () => {
   await annuler(b, es.map(x => x.id));
   assert.equal((await b.tous('entrees')).length, 0);
 });
+test('estimations IA du même plat : un seul aliment', async () => {
+  const b = await base();
+  const ia = (kcal, n) => ({ id: `ia:${n}`, source: 'ia', nom: 'Poké tofu', p100: { kcal, prot: 7, gluc: 20, lip: 4, fib: 2 }, portions: [], origineProt: 'soja' });
+  const e1 = await ajouterEntree(b, { aliment: ia(150, 1), qte: 450, unite: 'g', jour: '2026-11-23', repas: 'dejeuner', heure: '12:00', mode: 'phrase' });
+  const e2 = await ajouterEntree(b, { aliment: ia(160, 2), qte: 400, unite: 'g', jour: '2026-11-24', repas: 'dejeuner', heure: '12:00', mode: 'phrase' });
+  assert.equal(e1.alimentId, e2.alimentId);
+  assert.equal((await b.tous('aliments')).length, 1);
+  assert.equal(Math.round(e1.kcal), 675);
+  assert.equal(Math.round(e2.kcal), 640);
+});

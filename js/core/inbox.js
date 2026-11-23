@@ -15,7 +15,9 @@ function lireDate(v) {
   if (v == null) return null;
   const s = String(v).trim();
   const m = s.match(ISO);
-  if (m) return { jour: m[1], heure: m[2] ? `${m[2]}:${m[3]}` : null, iso: s };
+  // Avec un décalage explicite (+01:00), la date est déjà l'heure du téléphone ;
+  // en UTC (Z), on la ramène à l'heure locale.
+  if (m && !/Z$/i.test(s)) return { jour: m[1], heure: m[2] ? `${m[2]}:${m[3]}` : null, iso: s };
   const d = new Date(s);
   if (Number.isNaN(d.getTime())) return null;
   const p = n => String(n).padStart(2, '0');

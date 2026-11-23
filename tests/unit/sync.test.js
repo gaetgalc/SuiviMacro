@@ -120,3 +120,17 @@ test('fichier distant illisible : jamais écrasé', async () => {
   assert.equal(gh.lireTexte('mesures.json'), '{ pas du json');
   assert.notEqual(A.sync.etat().erreur, null);
 });
+test('envoi illisible : lu une seule fois', async () => {
+  const gh = fauxGithub();
+  const A = await appareil(gh);
+  gh.ecrireDepuisAilleurs('inbox/mauvais.json', 'pas du json');
+  await A.sync.synchroniser();
+  await A.sync.synchroniser();
+  const lectures = gh.appels.filter(a => a.methode === 'GET' && a.url.includes('inbox/mauvais.json')).length;
+  assert.equal(lectures, 1);
+  assert.match(A.sync.etat().dernierEnvoi.erreur, /illisible/);
+  // Corrigé sur GitHub (nouveau contenu) : relu et intégré
+  gh.ecrireDepuisAilleurs('inbox/mauvais.json', JSON.stringify({ poids: [{ date: '2026-11-24T07:00:00+01:00', kg: 80 }] }));
+  await A.sync.synchroniser();
+  assert.equal((await A.base.lire('mesures', '2026-11-24')).poids, 80);
+});

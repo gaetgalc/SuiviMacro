@@ -106,7 +106,9 @@ async function rendre() {
   const n = ++rendu;
   const racine = document.getElementById('ecran');
   let { nom, params } = lireRoute();
-  if (nom !== 'bienvenue' && nom !== 'vide' && !(await ctx.reglages())) { location.replace('#/bienvenue'); return; }
+  const configure = !!(await ctx.reglages());
+  if (nom !== 'bienvenue' && nom !== 'vide' && !configure) { location.replace('#/bienvenue'); return; }
+  if (nom === 'bienvenue' && configure) { location.replace('#/accueil'); return; }
   const module = await ECRANS[nom]();
   if (n !== rendu) return;
   nettoyer?.();

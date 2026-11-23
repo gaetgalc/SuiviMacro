@@ -80,3 +80,13 @@ test('réglages : jeton, expiration, export, import, à propos', async () => {
     assert.deepEqual(app.erreurs, []);
   } finally { await app.fermer(); }
 });
+
+test('bienvenue inaccessible une fois configuré', async () => {
+  const app = await demarrer();
+  try {
+    await configurer(app.page, app.url);
+    await app.page.goto(`${app.url}#/bienvenue`);
+    await app.page.waitForSelector('[data-ecran="accueil"]');
+    assert.equal(await app.page.evaluate(() => location.hash), '#/accueil');
+  } finally { await app.fermer(); }
+});

@@ -71,11 +71,18 @@ export function creerSync({ base, depot, horloge = () => new Date().toISOString(
     const resume = { poids: 0, gras: 0, seances: 0, ignores: 0, fichiers: 0 };
     const integres = [];
     let erreur = null;
-    for (const [chemin] of inbox) {
+    const ignores = new Set((await base.cache('sync:inboxIgnores'))?.valeur || []);
+    const aLire = inbox.filter(([, sha]) => !ignores.has(sha));
+    if (!aLire.length) return null;
+    for (const [chemin, shaArbre] of aLire) {
       const f = await depot.lire(chemin);
       if (!f) continue;
       let json;
-      try { json = JSON.parse(f.texte); } catch { erreur = `Envoi illisible : ${chemin} (JSON invalide).`; continue; }
+      try { json = JSON.parse(f.texte); } catch {
+        erreur = `Envoi illisible : ${chemin} (JSON invalide). Corrige-le ou supprime-le sur GitHub.`;
+        ignores.add(shaArbre);
+        continue;
+      }
       const mesures = await base.tous('mesures', { avecSupprimes: true });
       const seances = await base.tous('seances', { avecSupprimes: true });
       const r = integrerEnvoi(lireEnvoi(json), mesures, seances, horloge());
@@ -90,6 +97,7 @@ export function creerSync({ base, depot, horloge = () => new Date().toISOString(
     }
     await envoyer(); // les mesures sont dans le dépôt avant de vider la boîte
     for (const [chemin, sha] of integres) await depot.supprimer(chemin, sha);
+    await base.poserCache('sync:inboxIgnores', [...ignores], horloge());
     etat.dernierEnvoi = { le: horloge(), resume, erreur };
     await base.poserCache('sync:dernierEnvoi', etat.dernierEnvoi, etat.dernierEnvoi.le);
     return etat.dernierEnvoi;

@@ -53,3 +53,13 @@ test('intégration : pesée la plus matinale, manuel jamais écrasé, idempotent
   assert.equal(r3.mesures[0].poids, 81);
   assert.equal(r3.mesures[0].grasPct, 18.4);
 });
+test('horodatage UTC (Z) ramené à l\'heure locale', () => {
+  const avant = process.env.TZ;
+  process.env.TZ = 'Europe/Paris';
+  try {
+    const r = lireEnvoi({ poids: [{ date: '2026-11-23T23:30:00Z', kg: 80 }] });
+    assert.deepEqual(r.poids[0], { jour: '2026-11-24', heure: '00:30', kg: 80 });
+    const local = lireEnvoi({ poids: [{ date: '2026-11-23T23:30:00+01:00', kg: 80 }] });
+    assert.equal(local.poids[0].jour, '2026-11-23');
+  } finally { process.env.TZ = avant; }
+});

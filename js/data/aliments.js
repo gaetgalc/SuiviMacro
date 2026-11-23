@@ -11,6 +11,12 @@ export async function adopter(base, aliment) {
   const existant = (await base.lire('aliments', aliment.id))
     || (aliment.ref ? (await base.tous('aliments')).find(a => a.source === aliment.source && a.ref === aliment.ref) : null);
   if (existant && !existant.supprime) return existant;
+  if (aliment.source === 'ia') {
+    // Une estimation du même plat réutilise l'aliment existant, avec les dernières valeurs.
+    const nom = aliment.nom.trim().toLowerCase();
+    const meme = (await base.tous('aliments')).find(a => a.source === 'ia' && a.nom.trim().toLowerCase() === nom);
+    if (meme) return base.ecrire('aliments', { ...meme, p100: aliment.p100, origineProt: aliment.origineProt });
+  }
   const id = aliment.source === 'ia' || aliment.source === 'phrase' ? nouvelId('perso') : aliment.id;
   const { ...copie } = aliment;
   return base.ecrire('aliments', { ...copie, id, utilisations: 0, supprime: undefined });
