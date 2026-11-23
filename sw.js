@@ -1,5 +1,5 @@
 // Service worker : l'app fonctionne hors connexion (§ 13).
-const VERSION = 'suivimacro-v1';
+const VERSION = 'suivimacro-v2';
 const FICHIERS = [
   './', 'index.html', 'manifest.webmanifest',
   'css/app.css', 'css/tokens.css', 'css/base.css',
