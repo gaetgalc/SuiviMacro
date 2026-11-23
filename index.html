@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SuiviMacro</title>
+<meta name="description" content="Suivi nutritionnel personnel.">
+<meta name="theme-color" content="#05070d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SuiviMacro">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icone-180.png">
+<link rel="icon" href="icons/icone.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/app.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<header class="barre-haut">
+ <h1 class="barre-titre" id="titre-ecran">SuiviMacro</h1>
+ <a class="pastille" id="pastille-sync" href="#/reglages/synchronisation" hidden></a>
+</header>
+<main id="ecran" class="ecran" tabindex="-1">
+ <noscript><p class="vide">SuiviMacro a besoin de JavaScript pour fonctionner.</p></noscript>
+</main>
+<nav class="onglets" aria-label="Navigation principale">
+ <a href="#/accueil" data-onglet="accueil"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 17c4-1 6-6 9-7s6 1 9-3"/><path d="M3 21h18"/></svg><span>Accueil</span></a>
+ <a href="#/journal" data-onglet="journal"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"/><path d="M9 9h6M9 13h6"/></svg><span>Journal</span></a>
+ <button type="button" class="onglet-ajouter" id="bouton-ajouter" aria-label="Ajouter un aliment"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></button>
+ <a href="#/tendances" data-onglet="tendances"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span>Tendances</span></a>
+ <a href="#/reglages" data-onglet="reglages"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg><span>Réglages</span></a>
+</nav>
+<div id="bandeaux" class="bandeaux" aria-live="polite"></div>
+</body>
+</html>

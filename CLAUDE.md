@@ -6,9 +6,19 @@ Site prévu : https://gaetgalc.github.io/SuiviMacro/ (GitHub Pages depuis `main`
 
 ## Où en est le projet
 
-- 23/11 : interview de cadrage terminée, compte rendu dans `docs/INTERVIEW.md`. **Le lire en entier avant toute décision de conception.**
-- Étape suivante : cahier des charges `docs/superpowers/specs/2026-11-23-suivimacro-design.md`, puis validation par Gaëtan, puis plan (`superpowers:writing-plans`) dans `docs/superpowers/plans/`, puis construction.
-- Objectif fixé par Gaëtan : un site prêt à 99 % à la livraison, peu de retouches. L'enjeu est l'équilibre entre facilité d'utilisation et exhaustivité.
+- 23/11 : interview de cadrage (`docs/INTERVIEW.md`), cahier des charges (`docs/superpowers/specs/2026-11-23-suivimacro-design.md`) et plan (`docs/superpowers/plans/2026-11-23-suivimacro.md`) validés, puis construction complète.
+- Reste côté Gaëtan, dans l'ordre de `docs/GUIDE.md` : activer GitHub Pages, installer l'app sur l'iPhone, créer le jeton, construire le raccourci, (facultatif) la clé API.
+- Risques encore à éprouver sur l'iPhone : lecture des séances par Raccourcis, caméra dans l'app installée, écriture du raccourci dans le dépôt.
+
+## Organisation du code
+
+- `js/core/` : calculs purs (tendance, dépense, bilan, recherche, phrase, suggestions, grignotage, fusion, envois du raccourci), testés sous Node.
+- `js/data/` : IndexedDB (`db.js`), API GitHub (`depot.js`), synchronisation (`sync.js`), Open Food Facts, Claude, code-barres.
+- `js/ui/` : un fichier par écran ; `composants.js` (html échappé, feuilles, bandeaux, graphiques).
+- `data/` : Ciqual 2025 (`npm run ciqual`), plats types et portions. `vendor/` : `npm run vendor`.
+- Tests : `npm test` (unitaires) et `npm run e2e` (Playwright, iPhone 13, réseau simulé ; heure fixée par `window.__MAINTENANT__`).
+- Tout nouveau fichier servi doit être ajouté à la liste de `sw.js` (un test le vérifie).
+- Interface : thème Hallmark « Ribbon », colorie sombre two-in-the-morning ; jetons dans `css/tokens.css`.
 
 ## Ce que veut l'utilisateur
 

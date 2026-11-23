@@ -1,0 +1,912 @@
+[
+ {
+  "cle": "oeuf",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "œuf",
+    "g": 50
+   }
+  ]
+ },
+ {
+  "cle": "pain",
+  "portions": [
+   {
+    "id": "tranche",
+    "nom": "tranche",
+    "g": 35
+   }
+  ]
+ },
+ {
+  "cle": "baguette",
+  "portions": [
+   {
+    "id": "morceau",
+    "nom": "morceau (¼ de baguette)",
+    "g": 60
+   }
+  ]
+ },
+ {
+  "cle": "pain mie",
+  "portions": [
+   {
+    "id": "tranche",
+    "nom": "tranche",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "biscotte",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "biscotte",
+    "g": 8
+   }
+  ]
+ },
+ {
+  "cle": "galette riz",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "galette",
+    "g": 9
+   }
+  ]
+ },
+ {
+  "cle": "riz cuit",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "riz",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuit)",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "pate cuite",
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 250
+   }
+  ]
+ },
+ {
+  "cle": "quinoa",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuit)",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "semoule",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuite)",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "boulgour",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuit)",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "lentille",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuites)",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "pois chiche",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuits)",
+    "g": 160
+   }
+  ]
+ },
+ {
+  "cle": "haricot",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol (cuits)",
+    "g": 180
+   }
+  ]
+ },
+ {
+  "cle": "edamame",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "petit pois",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "flocon avoine",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 50
+   },
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 10
+   }
+  ]
+ },
+ {
+  "cle": "muesli",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 50
+   }
+  ]
+ },
+ {
+  "cle": "granola",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 50
+   }
+  ]
+ },
+ {
+  "cle": "cereale",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 40
+   }
+  ]
+ },
+ {
+  "cle": "huile",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 10
+   },
+   {
+    "id": "cc",
+    "nom": "cuillère à café",
+    "g": 4
+   }
+  ]
+ },
+ {
+  "cle": "beurre",
+  "portions": [
+   {
+    "id": "noisette",
+    "nom": "noisette",
+    "g": 10
+   }
+  ]
+ },
+ {
+  "cle": "beurre cacahuete",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "puree amande",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "tahin",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "sucre",
+  "portions": [
+   {
+    "id": "cc",
+    "nom": "cuillère à café",
+    "g": 5
+   }
+  ]
+ },
+ {
+  "cle": "miel",
+  "portions": [
+   {
+    "id": "cc",
+    "nom": "cuillère à café",
+    "g": 8
+   }
+  ]
+ },
+ {
+  "cle": "confiture",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "lait",
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 200
+   },
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 250
+   }
+  ]
+ },
+ {
+  "cle": "boisson soja",
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "boisson avoine",
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "boisson amande",
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "yaourt",
+  "portions": [
+   {
+    "id": "pot",
+    "nom": "pot",
+    "g": 125
+   }
+  ]
+ },
+ {
+  "cle": "fromage blanc",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "fromage",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 30
+   }
+  ]
+ },
+ {
+  "cle": "emmental",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée (râpé)",
+    "g": 20
+   }
+  ]
+ },
+ {
+  "cle": "parmesan",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 10
+   }
+  ]
+ },
+ {
+  "cle": "mozzarella",
+  "portions": [
+   {
+    "id": "boule",
+    "nom": "boule",
+    "g": 125
+   }
+  ]
+ },
+ {
+  "cle": "feta",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 30
+   }
+  ]
+ },
+ {
+  "cle": "creme",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "banane",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "banane",
+    "g": 120
+   }
+  ]
+ },
+ {
+  "cle": "pomme",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pomme",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "poire",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "poire",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "orange",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "orange",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "kiwi",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "kiwi",
+    "g": 80
+   }
+  ]
+ },
+ {
+  "cle": "clementine",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "clémentine",
+    "g": 60
+   }
+  ]
+ },
+ {
+  "cle": "mandarine",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "mandarine",
+    "g": 60
+   }
+  ]
+ },
+ {
+  "cle": "peche",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pêche",
+    "g": 130
+   }
+  ]
+ },
+ {
+  "cle": "abricot",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "abricot",
+    "g": 40
+   }
+  ]
+ },
+ {
+  "cle": "datte",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "datte",
+    "g": 8
+   }
+  ]
+ },
+ {
+  "cle": "pruneau",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pruneau",
+    "g": 8
+   }
+  ]
+ },
+ {
+  "cle": "raisin sec",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "avocat",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "avocat",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "tomate",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "tomate",
+    "g": 120
+   }
+  ]
+ },
+ {
+  "cle": "carotte",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "carotte",
+    "g": 80
+   }
+  ]
+ },
+ {
+  "cle": "concombre",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "concombre",
+    "g": 300
+   }
+  ]
+ },
+ {
+  "cle": "courgette",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "courgette",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "poivron",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "poivron",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "oignon",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "oignon",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "pomme terre",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pomme de terre",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "patate douce",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "patate douce",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "brocoli",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "epinard",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 150
+   }
+  ]
+ },
+ {
+  "cle": "champignon",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "olive",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "olive",
+    "g": 4
+   }
+  ]
+ },
+ {
+  "cle": "amande",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "noix",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "noisette",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "cajou",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "cacahuete",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "pistache",
+  "portions": [
+   {
+    "id": "poignee",
+    "nom": "poignée",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "graine",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 10
+   }
+  ]
+ },
+ {
+  "cle": "chocolat",
+  "portions": [
+   {
+    "id": "carre",
+    "nom": "carré",
+    "g": 5
+   }
+  ]
+ },
+ {
+  "cle": "tofu",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 100
+   },
+   {
+    "id": "bloc",
+    "nom": "bloc",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "tempeh",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "seitan",
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 100
+   }
+  ]
+ },
+ {
+  "cle": "houmous",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 20
+   }
+  ]
+ },
+ {
+  "cle": "tortilla",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "tortilla",
+    "g": 40
+   }
+  ]
+ },
+ {
+  "cle": "compote",
+  "portions": [
+   {
+    "id": "gourde",
+    "nom": "gourde",
+    "g": 90
+   }
+  ]
+ },
+ {
+  "cle": "jus",
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 200
+   }
+  ]
+ },
+ {
+  "cle": "soupe",
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 300
+   }
+  ]
+ },
+ {
+  "cle": "biscuit",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "biscuit",
+    "g": 10
+   }
+  ]
+ },
+ {
+  "cle": "barre cerealiere",
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "barre",
+    "g": 25
+   }
+  ]
+ },
+ {
+  "cle": "sauce soja",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "ketchup",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "mayonnaise",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "pesto",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ },
+ {
+  "cle": "vinaigrette",
+  "portions": [
+   {
+    "id": "cs",
+    "nom": "cuillère à soupe",
+    "g": 15
+   }
+  ]
+ }
+]

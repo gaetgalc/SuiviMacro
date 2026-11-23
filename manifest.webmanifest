@@ -1,0 +1,17 @@
+{
+ "name": "SuiviMacro",
+ "short_name": "SuiviMacro",
+ "description": "Suivi nutritionnel personnel : tendance, dépense, saisie rapide.",
+ "lang": "fr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#05070d",
+ "theme_color": "#05070d",
+ "icons": [
+  { "src": "icons/icone-192.png", "sizes": "192x192", "type": "image/png" },
+  { "src": "icons/icone-512.png", "sizes": "512x512", "type": "image/png" },
+  { "src": "icons/icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+ ]
+}

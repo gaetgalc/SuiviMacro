@@ -1,0 +1,2063 @@
+[
+ {
+  "id": "curry-pois-chiches",
+  "nom": "Curry de pois chiches",
+  "synonymes": [
+   "curry pois chiche",
+   "chana masala"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 130.0,
+   "prot": 5.0,
+   "gluc": 14.0,
+   "lip": 5.5,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "curry-pois-chiches-riz",
+  "nom": "Curry de pois chiches et riz",
+  "synonymes": [
+   "curry pois chiche riz"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 4.5,
+   "gluc": 21.0,
+   "lip": 4.0,
+   "fib": 3.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "dahl",
+  "nom": "Dahl de lentilles",
+  "synonymes": [
+   "dal",
+   "dhal",
+   "dahl lentille corail"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 120.0,
+   "prot": 6.0,
+   "gluc": 15.0,
+   "lip": 3.5,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "dahl-riz",
+  "nom": "Dahl de lentilles et riz",
+  "synonymes": [
+   "dahl riz",
+   "dal riz"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 135.0,
+   "prot": 5.0,
+   "gluc": 22.0,
+   "lip": 3.0,
+   "fib": 3.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "chili-sin-carne",
+  "nom": "Chili sin carne",
+  "synonymes": [
+   "chili vegetarien",
+   "chili vege"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 110.0,
+   "prot": 5.5,
+   "gluc": 14.0,
+   "lip": 3.0,
+   "fib": 5.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "burger-vege",
+  "nom": "Burger végétarien",
+  "synonymes": [
+   "burger vege",
+   "burger vegan",
+   "veggie burger"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 240.0,
+   "prot": 10.0,
+   "gluc": 26.0,
+   "lip": 10.0,
+   "fib": 3.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "pizza-margherita",
+  "nom": "Pizza margherita",
+  "synonymes": [
+   "pizza marguerite",
+   "pizza tomate mozzarella"
+  ],
+  "portions": [
+   {
+    "id": "pizza",
+    "nom": "pizza",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 250.0,
+   "prot": 10.0,
+   "gluc": 31.0,
+   "lip": 9.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "pizza-4-fromages",
+  "nom": "Pizza 4 fromages",
+  "synonymes": [
+   "pizza quatre fromages"
+  ],
+  "portions": [
+   {
+    "id": "pizza",
+    "nom": "pizza",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 280.0,
+   "prot": 12.0,
+   "gluc": 28.0,
+   "lip": 13.0,
+   "fib": 2.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "pizza-vege",
+  "nom": "Pizza végétarienne",
+  "synonymes": [
+   "pizza legumes",
+   "pizza vege"
+  ],
+  "portions": [
+   {
+    "id": "pizza",
+    "nom": "pizza",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 220.0,
+   "prot": 9.0,
+   "gluc": 29.0,
+   "lip": 7.5,
+   "fib": 2.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "poke-tofu",
+  "nom": "Poké bowl tofu",
+  "synonymes": [
+   "poke bowl",
+   "poke tofu",
+   "poké"
+  ],
+  "portions": [
+   {
+    "id": "bowl",
+    "nom": "bowl",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 150.0,
+   "prot": 7.0,
+   "gluc": 20.0,
+   "lip": 4.5,
+   "fib": 2.5
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "buddha-bowl",
+  "nom": "Buddha bowl",
+  "synonymes": [
+   "bowl vegetarien",
+   "bouddha bowl"
+  ],
+  "portions": [
+   {
+    "id": "bowl",
+    "nom": "bowl",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 5.5,
+   "gluc": 17.0,
+   "lip": 5.5,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "falafel",
+  "nom": "Falafel",
+  "synonymes": [
+   "falafels"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 20
+   }
+  ],
+  "p100": {
+   "kcal": 330.0,
+   "prot": 13.0,
+   "gluc": 32.0,
+   "lip": 18.0,
+   "fib": 5.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "assiette-falafels",
+  "nom": "Assiette de falafels",
+  "synonymes": [
+   "falafel assiette",
+   "plat falafel"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 200.0,
+   "prot": 7.0,
+   "gluc": 22.0,
+   "lip": 9.0,
+   "fib": 5.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "wrap-falafel",
+  "nom": "Wrap falafel",
+  "synonymes": [
+   "wrap falafels",
+   "sandwich falafel",
+   "durum falafel"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 230.0,
+   "prot": 7.5,
+   "gluc": 28.0,
+   "lip": 9.5,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "houmous",
+  "nom": "Houmous",
+  "synonymes": [
+   "hummus",
+   "humus"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 50
+   }
+  ],
+  "p100": {
+   "kcal": 280.0,
+   "prot": 7.5,
+   "gluc": 14.0,
+   "lip": 21.0,
+   "fib": 6.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "pad-thai-tofu",
+  "nom": "Pad thaï au tofu",
+  "synonymes": [
+   "pad thai",
+   "pad thai tofu"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 170.0,
+   "prot": 7.0,
+   "gluc": 22.0,
+   "lip": 6.0,
+   "fib": 1.5
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "ramen-vege",
+  "nom": "Ramen végétarien",
+  "synonymes": [
+   "ramen",
+   "ramen vege"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 600
+   }
+  ],
+  "p100": {
+   "kcal": 90.0,
+   "prot": 4.0,
+   "gluc": 13.0,
+   "lip": 2.5,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "sushi-vege",
+  "nom": "Sushi végétarien",
+  "synonymes": [
+   "sushi",
+   "maki",
+   "makis",
+   "maki avocat",
+   "california vege"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 25
+   }
+  ],
+  "p100": {
+   "kcal": 150.0,
+   "prot": 3.0,
+   "gluc": 30.0,
+   "lip": 1.5,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "salade-composee",
+  "nom": "Salade composée",
+  "synonymes": [
+   "salade",
+   "salade mixte"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 110.0,
+   "prot": 4.0,
+   "gluc": 10.0,
+   "lip": 6.0,
+   "fib": 2.5
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "quiche-legumes",
+  "nom": "Quiche aux légumes",
+  "synonymes": [
+   "quiche",
+   "tarte salee",
+   "quiche lorraine vege"
+  ],
+  "portions": [
+   {
+    "id": "part",
+    "nom": "part",
+    "g": 200
+   }
+  ],
+  "p100": {
+   "kcal": 230.0,
+   "prot": 7.0,
+   "gluc": 17.0,
+   "lip": 15.0,
+   "fib": 1.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "croque-fromage",
+  "nom": "Croque-monsieur végétarien",
+  "synonymes": [
+   "croque monsieur",
+   "croque fromage"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 180
+   }
+  ],
+  "p100": {
+   "kcal": 260.0,
+   "prot": 12.0,
+   "gluc": 25.0,
+   "lip": 12.0,
+   "fib": 1.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "lasagnes-vege",
+  "nom": "Lasagnes végétariennes",
+  "synonymes": [
+   "lasagne",
+   "lasagnes",
+   "lasagne legumes"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 130.0,
+   "prot": 6.0,
+   "gluc": 14.0,
+   "lip": 5.5,
+   "fib": 2.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "gnocchis-tomate",
+  "nom": "Gnocchis sauce tomate",
+  "synonymes": [
+   "gnocchi",
+   "gnocchis"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 3.5,
+   "gluc": 27.0,
+   "lip": 2.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "risotto",
+  "nom": "Risotto aux champignons",
+  "synonymes": [
+   "risotto"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 3.5,
+   "gluc": 20.0,
+   "lip": 5.0,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "tacos-vege",
+  "nom": "Tacos végétarien",
+  "synonymes": [
+   "tacos",
+   "taco"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 220.0,
+   "prot": 8.0,
+   "gluc": 24.0,
+   "lip": 10.0,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "bagel-fromage",
+  "nom": "Bagel au fromage",
+  "synonymes": [
+   "bagel"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 150
+   }
+  ],
+  "p100": {
+   "kcal": 270.0,
+   "prot": 11.0,
+   "gluc": 38.0,
+   "lip": 8.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "sandwich-vege",
+  "nom": "Sandwich végétarien",
+  "synonymes": [
+   "sandwich",
+   "baguette fromage",
+   "jambon beurre vege"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 250.0,
+   "prot": 10.0,
+   "gluc": 30.0,
+   "lip": 9.0,
+   "fib": 2.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "croissant",
+  "nom": "Croissant",
+  "synonymes": [
+   "croissant beurre"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 60
+   }
+  ],
+  "p100": {
+   "kcal": 420.0,
+   "prot": 8.0,
+   "gluc": 45.0,
+   "lip": 23.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "pain-chocolat",
+  "nom": "Pain au chocolat",
+  "synonymes": [
+   "chocolatine"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 65
+   }
+  ],
+  "p100": {
+   "kcal": 420.0,
+   "prot": 7.5,
+   "gluc": 47.0,
+   "lip": 22.0,
+   "fib": 3.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "pates-bolo-vege",
+  "nom": "Pâtes bolognaise végétale",
+  "synonymes": [
+   "bolognaise vege",
+   "spaghetti bolognaise vege",
+   "pate bolo"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 145.0,
+   "prot": 7.0,
+   "gluc": 20.0,
+   "lip": 4.0,
+   "fib": 3.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "pates-pesto",
+  "nom": "Pâtes au pesto",
+  "synonymes": [
+   "pate pesto",
+   "spaghetti pesto"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 220.0,
+   "prot": 6.5,
+   "gluc": 28.0,
+   "lip": 9.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "pates-tomate",
+  "nom": "Pâtes sauce tomate",
+  "synonymes": [
+   "pate tomate",
+   "spaghetti tomate",
+   "pates napolitaine"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 120.0,
+   "prot": 4.0,
+   "gluc": 22.0,
+   "lip": 2.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "couscous-vege",
+  "nom": "Couscous végétarien",
+  "synonymes": [
+   "couscous",
+   "couscous legumes"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 130.0,
+   "prot": 4.5,
+   "gluc": 20.0,
+   "lip": 3.5,
+   "fib": 3.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "tajine-legumes",
+  "nom": "Tajine de légumes aux pois chiches",
+  "synonymes": [
+   "tajine",
+   "tagine"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 90.0,
+   "prot": 3.5,
+   "gluc": 12.0,
+   "lip": 3.0,
+   "fib": 3.5
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "omelette",
+  "nom": "Omelette",
+  "synonymes": [
+   "omelette nature",
+   "omelette fromage"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 150
+   }
+  ],
+  "p100": {
+   "kcal": 160.0,
+   "prot": 11.0,
+   "gluc": 1.0,
+   "lip": 12.5,
+   "fib": 0.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "oeufs-brouilles",
+  "nom": "Œufs brouillés",
+  "synonymes": [
+   "oeuf brouille",
+   "oeufs brouilles"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 150
+   }
+  ],
+  "p100": {
+   "kcal": 170.0,
+   "prot": 11.0,
+   "gluc": 1.5,
+   "lip": 13.0,
+   "fib": 0.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "crepe-sucree",
+  "nom": "Crêpe sucrée",
+  "synonymes": [
+   "crepe",
+   "crepes"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 60
+   }
+  ],
+  "p100": {
+   "kcal": 230.0,
+   "prot": 6.0,
+   "gluc": 32.0,
+   "lip": 8.0,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "galette-complete",
+  "nom": "Galette complète végétarienne",
+  "synonymes": [
+   "galette sarrasin",
+   "galette complete",
+   "galette oeuf fromage"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 210.0,
+   "prot": 10.0,
+   "gluc": 20.0,
+   "lip": 10.0,
+   "fib": 2.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "gaufre",
+  "nom": "Gaufre",
+  "synonymes": [
+   "gaufres"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 70
+   }
+  ],
+  "p100": {
+   "kcal": 330.0,
+   "prot": 6.0,
+   "gluc": 40.0,
+   "lip": 16.0,
+   "fib": 1.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "frites",
+  "nom": "Frites",
+  "synonymes": [
+   "frite"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 150
+   }
+  ],
+  "p100": {
+   "kcal": 290.0,
+   "prot": 3.5,
+   "gluc": 36.0,
+   "lip": 14.0,
+   "fib": 3.5
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "burrito-vege",
+  "nom": "Burrito végétarien",
+  "synonymes": [
+   "burrito"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 180.0,
+   "prot": 7.0,
+   "gluc": 25.0,
+   "lip": 5.5,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "bowl-quinoa",
+  "nom": "Bowl de quinoa",
+  "synonymes": [
+   "quinoa bowl",
+   "salade quinoa"
+  ],
+  "portions": [
+   {
+    "id": "bowl",
+    "nom": "bowl",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 5.0,
+   "gluc": 18.0,
+   "lip": 5.0,
+   "fib": 3.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "soupe-legumes",
+  "nom": "Soupe de légumes",
+  "synonymes": [
+   "soupe",
+   "potage"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 40.0,
+   "prot": 1.2,
+   "gluc": 6.0,
+   "lip": 1.2,
+   "fib": 1.5
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "veloute-potiron",
+  "nom": "Velouté de potiron",
+  "synonymes": [
+   "veloute",
+   "soupe potiron",
+   "veloute courge"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 50.0,
+   "prot": 1.0,
+   "gluc": 6.0,
+   "lip": 2.5,
+   "fib": 1.0
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "soupe-miso",
+  "nom": "Soupe miso",
+  "synonymes": [
+   "miso soupe"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 30.0,
+   "prot": 2.0,
+   "gluc": 3.0,
+   "lip": 1.0,
+   "fib": 0.5
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "nouilles-sautees",
+  "nom": "Nouilles sautées aux légumes",
+  "synonymes": [
+   "nouille sautee",
+   "wok nouilles",
+   "yakisoba"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 160.0,
+   "prot": 4.5,
+   "gluc": 24.0,
+   "lip": 5.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "riz-cantonais",
+  "nom": "Riz cantonais végétarien",
+  "synonymes": [
+   "riz cantonais",
+   "riz frit"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 170.0,
+   "prot": 5.0,
+   "gluc": 27.0,
+   "lip": 4.5,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "curry-thai-tofu",
+  "nom": "Curry thaï au tofu et riz",
+  "synonymes": [
+   "curry thai",
+   "curry vert tofu",
+   "curry rouge tofu"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 450
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 5.5,
+   "gluc": 18.0,
+   "lip": 5.0,
+   "fib": 1.5
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "tofu-saute",
+  "nom": "Tofu sauté aux légumes",
+  "synonymes": [
+   "wok tofu",
+   "tofu legumes"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 120.0,
+   "prot": 8.0,
+   "gluc": 6.0,
+   "lip": 7.0,
+   "fib": 2.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "paneer-tikka",
+  "nom": "Paneer tikka masala",
+  "synonymes": [
+   "paneer",
+   "tikka masala vege"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 170.0,
+   "prot": 8.0,
+   "gluc": 7.0,
+   "lip": 12.0,
+   "fib": 1.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "naan-fromage",
+  "nom": "Naan au fromage",
+  "synonymes": [
+   "cheese naan",
+   "naan"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 120
+   }
+  ],
+  "p100": {
+   "kcal": 310.0,
+   "prot": 9.0,
+   "gluc": 40.0,
+   "lip": 12.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "samoussa",
+  "nom": "Samoussa aux légumes",
+  "synonymes": [
+   "samosa",
+   "samoussas"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 50
+   }
+  ],
+  "p100": {
+   "kcal": 250.0,
+   "prot": 5.0,
+   "gluc": 30.0,
+   "lip": 12.0,
+   "fib": 3.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "nems-vege",
+  "nom": "Nems végétariens",
+  "synonymes": [
+   "nem",
+   "nems",
+   "rouleau printemps"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 50
+   }
+  ],
+  "p100": {
+   "kcal": 220.0,
+   "prot": 5.0,
+   "gluc": 26.0,
+   "lip": 10.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "gyoza",
+  "nom": "Gyozas aux légumes",
+  "synonymes": [
+   "gyoza",
+   "ravioli japonais"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 25
+   }
+  ],
+  "p100": {
+   "kcal": 200.0,
+   "prot": 6.0,
+   "gluc": 28.0,
+   "lip": 6.0,
+   "fib": 2.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "banh-mi-tofu",
+  "nom": "Banh mi au tofu",
+  "synonymes": [
+   "banh mi"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 220.0,
+   "prot": 9.0,
+   "gluc": 30.0,
+   "lip": 7.0,
+   "fib": 2.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "salade-lentilles",
+  "nom": "Salade de lentilles",
+  "synonymes": [
+   "lentilles salade"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 140.0,
+   "prot": 7.0,
+   "gluc": 17.0,
+   "lip": 4.5,
+   "fib": 5.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "taboule",
+  "nom": "Taboulé",
+  "synonymes": [
+   "taboule"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 150.0,
+   "prot": 3.5,
+   "gluc": 22.0,
+   "lip": 5.0,
+   "fib": 2.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "ratatouille",
+  "nom": "Ratatouille",
+  "synonymes": [
+   "ratatouille"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 50.0,
+   "prot": 1.2,
+   "gluc": 5.0,
+   "lip": 2.8,
+   "fib": 2.0
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "gratin-dauphinois",
+  "nom": "Gratin dauphinois",
+  "synonymes": [
+   "gratin pomme de terre",
+   "gratin"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 130.0,
+   "prot": 3.0,
+   "gluc": 12.0,
+   "lip": 7.5,
+   "fib": 1.2
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "puree",
+  "nom": "Purée de pommes de terre",
+  "synonymes": [
+   "puree"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 90.0,
+   "prot": 2.0,
+   "gluc": 13.0,
+   "lip": 3.5,
+   "fib": 1.3
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "parmentier-vege",
+  "nom": "Hachis parmentier végétal",
+  "synonymes": [
+   "hachis parmentier",
+   "parmentier vege"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 120.0,
+   "prot": 5.0,
+   "gluc": 13.0,
+   "lip": 5.0,
+   "fib": 2.5
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "steak-vegetal",
+  "nom": "Steak végétal",
+  "synonymes": [
+   "steak vege",
+   "galette vegetale",
+   "steak soja"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 100
+   }
+  ],
+  "p100": {
+   "kcal": 200.0,
+   "prot": 16.0,
+   "gluc": 8.0,
+   "lip": 11.0,
+   "fib": 4.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "nuggets-vege",
+  "nom": "Nuggets végétariens",
+  "synonymes": [
+   "nuggets",
+   "nugget vege"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 120
+   }
+  ],
+  "p100": {
+   "kcal": 230.0,
+   "prot": 13.0,
+   "gluc": 18.0,
+   "lip": 11.0,
+   "fib": 3.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "saucisse-vegetale",
+  "nom": "Saucisse végétale",
+  "synonymes": [
+   "saucisse vege"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 60
+   }
+  ],
+  "p100": {
+   "kcal": 230.0,
+   "prot": 15.0,
+   "gluc": 6.0,
+   "lip": 16.0,
+   "fib": 2.0
+  },
+  "origineProt": "soja",
+  "estimation": true
+ },
+ {
+  "id": "porridge",
+  "nom": "Porridge",
+  "synonymes": [
+   "porridge avoine",
+   "bouillie avoine"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 100.0,
+   "prot": 4.0,
+   "gluc": 15.0,
+   "lip": 2.5,
+   "fib": 1.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "granola-yaourt",
+  "nom": "Bol granola et yaourt",
+  "synonymes": [
+   "granola yaourt",
+   "yaourt granola"
+  ],
+  "portions": [
+   {
+    "id": "bol",
+    "nom": "bol",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 180.0,
+   "prot": 6.0,
+   "gluc": 25.0,
+   "lip": 6.0,
+   "fib": 2.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "smoothie",
+  "nom": "Smoothie aux fruits",
+  "synonymes": [
+   "smoothie banane",
+   "smoothie fruit"
+  ],
+  "portions": [
+   {
+    "id": "verre",
+    "nom": "verre",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 70.0,
+   "prot": 1.5,
+   "gluc": 14.0,
+   "lip": 0.8,
+   "fib": 1.0
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "shake-proteine",
+  "nom": "Shake protéiné (whey, lait, banane)",
+  "synonymes": [
+   "shake",
+   "smoothie proteine",
+   "shaker whey lait"
+  ],
+  "portions": [
+   {
+    "id": "shaker",
+    "nom": "shaker",
+    "g": 400
+   }
+  ],
+  "p100": {
+   "kcal": 85.0,
+   "prot": 7.0,
+   "gluc": 10.0,
+   "lip": 2.0,
+   "fib": 0.8
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "tartine-cacahuete",
+  "nom": "Tartine au beurre de cacahuète",
+  "synonymes": [
+   "tartine cacahuete",
+   "toast beurre cacahuete"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 50
+   }
+  ],
+  "p100": {
+   "kcal": 360.0,
+   "prot": 13.0,
+   "gluc": 34.0,
+   "lip": 19.0,
+   "fib": 5.0
+  },
+  "origineProt": "oleagineux",
+  "estimation": true
+ },
+ {
+  "id": "avocado-toast",
+  "nom": "Tartine à l'avocat",
+  "synonymes": [
+   "avocado toast",
+   "toast avocat"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 120
+   }
+  ],
+  "p100": {
+   "kcal": 200.0,
+   "prot": 5.0,
+   "gluc": 22.0,
+   "lip": 10.0,
+   "fib": 5.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "tiramisu",
+  "nom": "Tiramisu",
+  "synonymes": [
+   "tiramisu"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 120
+   }
+  ],
+  "p100": {
+   "kcal": 280.0,
+   "prot": 5.0,
+   "gluc": 30.0,
+   "lip": 15.0,
+   "fib": 0.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "fondant-chocolat",
+  "nom": "Fondant au chocolat",
+  "synonymes": [
+   "moelleux chocolat",
+   "fondant"
+  ],
+  "portions": [
+   {
+    "id": "part",
+    "nom": "part",
+    "g": 100
+   }
+  ],
+  "p100": {
+   "kcal": 400.0,
+   "prot": 5.0,
+   "gluc": 45.0,
+   "lip": 23.0,
+   "fib": 2.5
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "cookie",
+  "nom": "Cookie",
+  "synonymes": [
+   "cookies"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 40
+   }
+  ],
+  "p100": {
+   "kcal": 470.0,
+   "prot": 5.5,
+   "gluc": 62.0,
+   "lip": 22.0,
+   "fib": 2.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "muffin",
+  "nom": "Muffin",
+  "synonymes": [
+   "muffins"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 90
+   }
+  ],
+  "p100": {
+   "kcal": 400.0,
+   "prot": 5.5,
+   "gluc": 50.0,
+   "lip": 20.0,
+   "fib": 1.5
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "barre-proteinee",
+  "nom": "Barre protéinée",
+  "synonymes": [
+   "barre proteine",
+   "protein bar"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 60
+   }
+  ],
+  "p100": {
+   "kcal": 350.0,
+   "prot": 30.0,
+   "gluc": 35.0,
+   "lip": 10.0,
+   "fib": 5.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "glace",
+  "nom": "Glace",
+  "synonymes": [
+   "glace boule",
+   "crème glacée"
+  ],
+  "portions": [
+   {
+    "id": "boule",
+    "nom": "boule",
+    "g": 60
+   }
+  ],
+  "p100": {
+   "kcal": 200.0,
+   "prot": 3.5,
+   "gluc": 24.0,
+   "lip": 10.0,
+   "fib": 0.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "cheesecake",
+  "nom": "Cheesecake",
+  "synonymes": [
+   "cheese cake"
+  ],
+  "portions": [
+   {
+    "id": "part",
+    "nom": "part",
+    "g": 120
+   }
+  ],
+  "p100": {
+   "kcal": 320.0,
+   "prot": 6.0,
+   "gluc": 26.0,
+   "lip": 22.0,
+   "fib": 0.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "patisserie",
+  "nom": "Pâtisserie",
+  "synonymes": [
+   "gateau",
+   "eclair",
+   "tarte sucree"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 100
+   }
+  ],
+  "p100": {
+   "kcal": 350.0,
+   "prot": 5.0,
+   "gluc": 42.0,
+   "lip": 18.0,
+   "fib": 1.0
+  },
+  "origineProt": "cereales",
+  "estimation": true
+ },
+ {
+  "id": "mezze",
+  "nom": "Assiette de mezzés",
+  "synonymes": [
+   "mezze",
+   "mezzes",
+   "assiette libanaise"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 210.0,
+   "prot": 6.0,
+   "gluc": 18.0,
+   "lip": 13.0,
+   "fib": 5.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "quesadilla",
+  "nom": "Quesadilla au fromage",
+  "synonymes": [
+   "quesadilla"
+  ],
+  "portions": [
+   {
+    "id": "piece",
+    "nom": "pièce",
+    "g": 250
+   }
+  ],
+  "p100": {
+   "kcal": 290.0,
+   "prot": 12.0,
+   "gluc": 27.0,
+   "lip": 15.0,
+   "fib": 2.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "enchiladas",
+  "nom": "Enchiladas aux haricots",
+  "synonymes": [
+   "enchilada"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 350
+   }
+  ],
+  "p100": {
+   "kcal": 160.0,
+   "prot": 7.0,
+   "gluc": 19.0,
+   "lip": 6.0,
+   "fib": 4.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ },
+ {
+  "id": "salade-grecque",
+  "nom": "Salade grecque",
+  "synonymes": [
+   "salade feta"
+  ],
+  "portions": [
+   {
+    "id": "assiette",
+    "nom": "assiette",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 110.0,
+   "prot": 4.0,
+   "gluc": 4.0,
+   "lip": 9.0,
+   "fib": 1.5
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "poelee-legumes",
+  "nom": "Poêlée de légumes",
+  "synonymes": [
+   "poelee",
+   "legumes sautes"
+  ],
+  "portions": [
+   {
+    "id": "portion",
+    "nom": "portion",
+    "g": 300
+   }
+  ],
+  "p100": {
+   "kcal": 60.0,
+   "prot": 2.0,
+   "gluc": 7.0,
+   "lip": 2.5,
+   "fib": 2.5
+  },
+  "origineProt": "autres",
+  "estimation": true
+ },
+ {
+  "id": "skyr",
+  "nom": "Skyr nature",
+  "synonymes": [
+   "skyr"
+  ],
+  "portions": [
+   {
+    "id": "pot",
+    "nom": "pot",
+    "g": 150
+   }
+  ],
+  "p100": {
+   "kcal": 62.0,
+   "prot": 11.0,
+   "gluc": 4.0,
+   "lip": 0.2,
+   "fib": 0.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "whey",
+  "nom": "Whey (protéine en poudre)",
+  "synonymes": [
+   "whey",
+   "proteine whey",
+   "protéine en poudre"
+  ],
+  "portions": [
+   {
+    "id": "dose",
+    "nom": "dose",
+    "g": 30
+   }
+  ],
+  "p100": {
+   "kcal": 380.0,
+   "prot": 78.0,
+   "gluc": 6.0,
+   "lip": 5.0,
+   "fib": 0.0
+  },
+  "origineProt": "laitiers",
+  "estimation": true
+ },
+ {
+  "id": "proteine-pois",
+  "nom": "Protéine de pois en poudre",
+  "synonymes": [
+   "proteine vegetale",
+   "pea protein"
+  ],
+  "portions": [
+   {
+    "id": "dose",
+    "nom": "dose",
+    "g": 30
+   }
+  ],
+  "p100": {
+   "kcal": 370.0,
+   "prot": 80.0,
+   "gluc": 3.0,
+   "lip": 5.0,
+   "fib": 0.0
+  },
+  "origineProt": "legumineuses",
+  "estimation": true
+ }
+]
